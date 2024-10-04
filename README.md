@@ -1,14 +1,69 @@
-﻿# foody_API_data
-- Sau khi cào dữ liệu từ 24 quận trong TP HCM thì gộp **thông tin quán ăn** và **thông tin bình luận** bên phần cào từ web cho ra file:
- 
-`data_hcm_final.csv` : 93048 dòng, 52 cột
+# Foody API Data Collection
 
-- **Thông tin chi tiết của một quán** và **thông tin menu** sẽ chia ra 4 file sau:
+This project contains data collected from Foody API for restaurants in Ho Chi Minh City, Vietnam.
 
-`menu.csv` : 242.290 dòng, 3 cột
+## Dataset Overview
 
-`menu_dish.csv` 			: 1.676.636 dòng, 8 cột 
+The dataset is split into several CSV files:
 
-`menu_dish_option.csv`		: 1.986.132 dòng, 7 cột  
+1. `data_hcm_final.csv`: Main dataset containing restaurant information and reviews
+   - 93,048 rows
+   - 52 columns
 
-`menu_dish_option_item.csv`	: 4.885.649 dòng, 7 cột  
+2. `menu.csv`: Restaurant menu information
+   - 242,290 rows
+   - 3 columns
+
+3. `menu_dish.csv`: Detailed dish information
+   - 1,676,636 rows
+   - 8 columns
+
+4. `menu_dish_option.csv`: Dish options
+   - 1,986,132 rows
+   - 7 columns
+
+5. `menu_dish_option_item.csv`: Individual option items for dishes
+   - 4,885,649 rows
+   - 7 columns
+
+## Data Collection
+
+- Data was scraped from 24 districts in Ho Chi Minh City
+- Restaurant information and reviews were combined from web scraping results
+
+## File Descriptions
+
+### data_hcm_final.csv
+Contains main restaurant information and user reviews.
+
+### menu.csv
+Provides an overview of restaurant menus.
+
+### menu_dish.csv
+Detailed information about individual dishes.
+
+### menu_dish_option.csv
+Options available for customizing dishes.
+
+### menu_dish_option_item.csv
+Specific items within dish customization options.
+
+## Usage
+
+[Provide instructions on how to use or access the data]
+
+## Data Dictionary
+
+[If possible, provide a brief description of key columns in each file]
+
+## License
+
+[Specify the license under which this data is released]
+
+## Acknowledgements
+
+[Credit any sources or collaborators]
+
+## Contact
+
+[Provide contact information for questions or further information]
